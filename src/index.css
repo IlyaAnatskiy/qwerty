@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#app {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  color: white;
+  background-color: #09266a;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.white-bg {
+  background-color: #f4f5f7 !important;
+  z-index: 1;
+  transition: background-color 0.5s ease-in-out;
+}
+
+#white-noise {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+}
+
+.content {
+  will-change: transform;
+}
+
+section {
+  height: 100vh;
+  padding: 40px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+#section3 {
+  color: black;
+  padding: 0;
+}
+
+.hide {
+  visibility: hidden;
+}
